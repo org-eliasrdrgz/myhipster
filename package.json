@@ -21,7 +21,7 @@
         "@ng-bootstrap/ng-bootstrap": "4.0.2",
         "@ngx-translate/core": "11.0.1",
         "@ngx-translate/http-loader": "4.0.0",
-        "bootstrap": ">=4.3.1",
+        "bootstrap": "4.2.1",
         "core-js": "2.6.4",
         "moment": "2.24.0",
         "ng-jhipster": "0.9.1",
@@ -92,6 +92,7 @@
         "sass": "1.17.0",
         "sass-loader": "7.1.0",
         "postcss-loader": "3.0.0",
+        "xml2js": "0.4.19",
         "webpack": "4.29.3",
         "webpack-cli": "3.2.3",
         "webpack-dev-server": "3.1.14",
@@ -115,8 +116,8 @@
         "lint": "tslint --project tsconfig.json -e 'node_modules/**'",
         "lint:fix": "npm run lint -- --fix",
         "ngc": "ngc -p tsconfig-aot.json",
-        "cleanup": "rimraf build/{aot,www}",
-        "clean-www": "rimraf build//www/app/{src,build/}",
+        "cleanup": "rimraf target/{aot,www}",
+        "clean-www": "rimraf target//www/app/{src,target/}",
         "e2e": "protractor src/test/javascript/protractor.conf.js",
         "postinstall": "webdriver-manager update --gecko false",
         "start": "npm run webpack:dev",
@@ -136,7 +137,7 @@
         "webpack": "node --max_old_space_size=4096 node_modules/webpack/bin/webpack.js"
     },
     "jestSonar": {
-        "reportPath": "build/test-results/jest",
+        "reportPath": "target/test-results/jest",
         "reportFile": "TESTS-results-sonar.xml"
     }
 }
