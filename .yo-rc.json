@@ -20,7 +20,7 @@
         "searchEngine": "elasticsearch",
         "messageBroker": "kafka",
         "serviceDiscoveryType": "eureka",
-        "buildTool": "gradle",
+        "buildTool": "maven",
         "enableSwaggerCodegen": true,
         "jwtSecretKey": "NTA4N2FmZDVmMWJjN2Y3MzZiNjFiYTFlYzcwYWQzZWUwZTNmNGE3NzMyNTNiY2IyOTkxYjQ1YzJkN2NlMTUyZTI0ZjU3ZGUyMGUxYTBjYWZiMTVlNTNiYjNjNDk3NzZiZDVkZTA4NjE1ZTdiYmI1ODgzYTUyYjZkMGI2ZTI5OWU=",
         "clientFramework": "angularX",
